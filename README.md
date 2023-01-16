@@ -17,29 +17,29 @@ Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-da
 - days_since_request: Número de dias que passaram desde que a aplicação foi feita. Valores entre [0, 78] dias.
 - intended_balcon_amount: Qauntidade transferida inicialmente. Valores entre [−1, 108].
 - payment_type: Tipo de plano de crédito. 5 valores possíveis (anônimo).
-- zip_count_4w: Number of applications within same zip code in last 4 weeks. Ranges between [1, 5767].
-- velocity_6h: Velocity of total applications made in last 6 hours i.e., average number of applications per hour in the last 6 hours. Ranges between [−211, 24763].
-- velocity_24h: Velocity of total applications made in last 24 hours i.e., average number of applications per hour in the last 24 hours. Ranges between [1329, 9527].
-- velocity_4w: Velocity of total applications made in last 4 weeks, i.e., average number of applications per hour in the last 4 weeks. Ranges between [2779, 7043].
-- bank_branch_count_8w: Number of total applications in the selected bank branch in last 8 weeks. Ranges between [0, 2521].
-- date_of_birth_distinct_emails_4w: Number of emails for applicants with same date of birth in last 4 weeks. Ranges between [0, 42].
-- employment_status: Employment status of the applicant. 7 possible (annonymized) values.
-- credit_risk_score: Internal score of application risk. Ranges between [−176, 387].
-- email_is_free: Domain of application email (either free or paid).
-- housing_status: Current residential status for applicant. 7 possible (annonymized) values.
-- phone_home_valid: Validity of provided home phone.
-- phone_mobile_valid: Validity of provided mobile phone.
-- bank_months_count: How old is previous account (if held) in months. Ranges between [−1, 31] months (-1 is a missing value).
-- has_other_cards: If applicant has other cards from the same banking company.
-- proposed_credit_limit: Applicant’s proposed credit limit. Ranges between [200, 2000].
-- foreign_request: if origin country of request is different from bank’s country.
-- source: Online source of application. Either browser(INTERNET) or mobile app (APP).
-- session_length_in_minutes: Length of user session in banking website in minutes. Ranges between [−1, 107] minutes
-- device_os: Operative system of device that made request. Possible values are: Windows, Macintox, Linux, X11, or other.
-- keep_alive_session: User option on session logout.
-- device_distinct_emails_8w: Number of distinct emails in banking website from the used device in last 8 weeks. Ranges between [0, 3].
-- device_fraud_count: Number of fraudulent applications with used device. Ranges between [0, 1].
-- month: Month where the application was made. Ranges between [0, 7].
+- zip_count_4w: Número de aplicações com o mesmo código postal nas últimas 4 semanas. Valores entre [1, 5767].
+- velocity_6h: Velocidade do total de aplicações realizadas nas últimas 6 horas, ou seja, número médio de aplicações por hora nas últimas 6 horas. Varia entre [−211, 24763].
+- velocity_24h: Velocidade do total de aplicações realizadas nas últimas 24 horas, ou seja, número médio de aplicações por hora nas últimas 24 horas. Varia entre [1329, 9527].
+- velocity_4w: Velocidade do total de aplicações realizadas nas últimas 4 semanas, ou seja, número médio de aplicações por hora nas últimas 4 semanas. Varia entre [2779, 7043].
+- bank_branch_count_8w: Número total de aplicações na agência bancária selecionada nas últimas 8 semanas. Varia entre [0, 2521].
+- date_of_birth_distinct_emails_4w: Número de e-mails para candidatos com a mesma data de nascimento nas últimas 4 semanas. Varia entre [0, 42].
+- employment_status: Situação profissional do requerente. 7 valores possíveis (anônimos).
+- credit_risk_score: Pontuação interna do risco do aplicativo. Varia entre [−176, 387].
+- email_is_free: Domínio do e-mail do aplicativo (gratuito ou pago).
+- housing_status: Situação residencial atual do requerente. 7 valores possíveis (anônimos).
+- phone_home_valid: Validade do telefone residencial fornecido.
+- phone_mobile_valid: Validade do telefone celular fornecido.
+- bank_months_count: Quantos anos tem a conta anterior (se mantida) em meses. Varia entre [−1, 31] meses (-1 para valores missing).
+- has_other_cards: Se o requerente tiver outros cartões da mesma empresa bancária.
+- proposed_credit_limit: Limite de crédito proposto pelo requerente. Varia entre [200, 2000].
+- foreign_request: se o país de origem do pedido for diferente do país do banco.
+- source: Fonte online de aplicação. Navegador (INTERNET) ou aplicativo móvel (APP).
+- session_length_in_minutes: Duração da sessão do usuário no site bancário em minutos. Varia entre [−1, 107] minutos
+- device_os: Sistema operacional do dispositivo que fez o pedido. Os valores possíveis são: Windows, Mac, Linux, X11 ou outro.
+- keep_alive_session: Opção do usuário ao sair da sessão.
+- device_distinct_emails_8w: Número de e-mails distintos no site bancário do dispositivo usado nas últimas 8 semanas. Varia entre [0, 3].
+- device_fraud_count: Número de aplicativos fraudulentos com dispositivo usado. Varia entre [0, 1].
+- month: Mês em que foi feito o pedido. Varia entre [0, 7].
 
 Informações do Dataset
 - Total de Registros: 1.000.000
