@@ -1,8 +1,24 @@
 ![banques-us-remboursent-mal-fraude-paiements-instantanes-InCyber](https://user-images.githubusercontent.com/91103250/209026863-75ec5efe-4f38-4e83-8fec-c80f8fc7c0b3.jpg)
 
 # Modelo Preditivo - Fraude Bancária
-O objetivo dessa análise é identificar uma possível fraude com base nos dados pessoas de cada cliente, como idade, renda, risco de crédito e etc. O dataset foi disponibilizado 
-no Kaggle de maneira pública.
+O objetivo dessa análise é identificar uma possível fraude com base nos dados pessoas de cada cliente, como idade, renda, risco de crédito e etc. 
+Um dos maiores desafios deste dataset é o desbalanceamento de classes porque existem mais transações legais do que criminosas. 
+Outro ponto a ser destacado é que esse é um tipo de problema que tende a ter um retorno muito alto para instituições financeiras visto que a partir ds identificação de uma suspeita de fraude, a instituição financeira pode tomar decisões rápidas e objetivas evitando o prejuízo o ou mesmo diminuindo o risco do mesmo. De acordo com o InfoMoney em uma reportagem de Ago/22, golpes bancários tem o potencial de gerar um prejuízo de R$ 2.5 BI em 2022. 
+
+Fonte reportagem: https://www.infomoney.com.br/minhas-financas/golpes-bancarios-disparam-e-devem-gerar-prejuizos-de-r-25-bilhoes-neste-ano/
+
+## Informações do dataset
+O conjunto de conjuntos de dados de Fraude de Conta Bancária (BAF) foi publicado no NeurIPS 2022 e compreende um total de 6 conjuntos de dados tabulares de fraude de conta bancária sintética diferentes. O BAF é um banco de teste realista, completo e robusto para avaliar métodos novos e existentes em ML e ML justo, e o primeiro de seu tipo!
+
+Este conjunto de conjuntos de dados é:
+
+- Realista, baseado em um conjunto de dados do mundo real atual para detecção de fraudes;
+- Tendencioso, cada conjunto de dados tem tipos distintos de viés controlados;
+- Desequilibrado, esse cenário apresenta baixíssima prevalência de classe positiva;
+- Dinâmico, com dados temporais e mudanças de distribuição observadas;
+- Preservando a privacidade, para proteger a identidade de candidatos em potencial, aplicamos técnicas de privacidade diferencial (adição de ruído), codificação de recursos e treinamos um modelo generativo (CTGAN).
+
+O dataset foi disponibilizado no Kaggle de maneira pública.
 
 Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022
 
