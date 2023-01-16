@@ -9,8 +9,8 @@ Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-da
 ## Dicionário de Dados
 
 - fraud bool: Marcador para Fraude (1 se é fraude, 0 se é legítimo).
-- income: Annual income of the applicant in quantiles. Ranges between [0, 1].
-- name_email_similarity: Metric of similarity between email and applicant’s name. Higher values represent higher similarity. Ranges between [0, 1].
+- income: Renda anual das aplicações em quartis. Valores entre [0, 1].
+- name_email_similarity: Métrica de similaridade entre e-mail e nome de quem aplicou. Quanto maior o valor, maior a similaridade. Valores entre [0, 1].
 - prev_address_months_count: Number of months in previous registered address of the applicant, i.e. the applicant’s previous residence, if applicable. Ranges between [−1, 380] months (-1 is a missing value).
 - current_address_months_count: Months in currently registered address of the applicant. Ranges between [−1, 406] months (-1 is a missing value).
 - customer_age: Applicant’s age in bins per decade (e.g, 20-29 is represented as 20).
