@@ -7,6 +7,7 @@ no Kaggle de maneira pública.
 Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022
 
 ## Dicionário de Dados
+Variáveis:
 
 - fraud bool: Marcador para Fraude (1 se é fraude, 0 se é legítimo).
 - income: Renda anual das aplicações em quartis. Valores entre [0, 1].
@@ -41,6 +42,6 @@ Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-da
 - device_fraud_count: Número de aplicativos fraudulentos com dispositivo usado. Varia entre [0, 1].
 - month: Mês em que foi feito o pedido. Varia entre [0, 7].
 
-Informações do Dataset
+Informações do Dataset:
 - Total de Registros: 1.000.000
 - Total de Atributos: 32
