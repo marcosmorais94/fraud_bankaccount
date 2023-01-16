@@ -11,12 +11,12 @@ Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-da
 - fraud bool: Marcador para Fraude (1 se é fraude, 0 se é legítimo).
 - income: Renda anual das aplicações em quartis. Valores entre [0, 1].
 - name_email_similarity: Métrica de similaridade entre e-mail e nome de quem aplicou. Quanto maior o valor, maior a similaridade. Valores entre [0, 1].
-- prev_address_months_count: Number of months in previous registered address of the applicant, i.e. the applicant’s previous residence, if applicable. Ranges between [−1, 380] months (-1 is a missing value).
-- current_address_months_count: Months in currently registered address of the applicant. Ranges between [−1, 406] months (-1 is a missing value).
-- customer_age: Applicant’s age in bins per decade (e.g, 20-29 is represented as 20).
-- days_since_request: Number of days passed since application was done. Ranges between [0, 78] days.
-- intended_balcon_amount: Initial transferred amount for application. Ranges between [−1, 108].
-- payment_type: Credit payment plan type. 5 possible (annonymized) values.
+- prev_address_months_count: Número de meses registrados no endereço de quem aplicou, em outras palavras a residência anterior de quem apliccou, se disponível. Valores entre [−1, 380] meses (-1 para valores missing).
+- current_address_months_count: Meses que o requerente está registrado no endereço atual. Valores entre [−1, 406] meses (-1 para valores missing).
+- customer_age: Idade do requerente segmentado por décadas (exemplo, 20-29 é representado como 20).
+- days_since_request: Número de dias que passaram desde que a aplicação foi feita. Valores entre [0, 78] dias.
+- intended_balcon_amount: Qauntidade transferida inicialmente. Valores entre [−1, 108].
+- payment_type: Tipo de plano de crédito. 5 valores possíveis (anônimo).
 - zip_count_4w: Number of applications within same zip code in last 4 weeks. Ranges between [1, 5767].
 - velocity_6h: Velocity of total applications made in last 6 hours i.e., average number of applications per hour in the last 6 hours. Ranges between [−211, 24763].
 - velocity_24h: Velocity of total applications made in last 24 hours i.e., average number of applications per hour in the last 24 hours. Ranges between [1329, 9527].
