@@ -23,7 +23,10 @@ O dataset foi disponibilizado no Kaggle de maneira pública.
 Fonte do dataset: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022
 
 ## Dicionário de Dados
-Variáveis:
+| First Header  | Second Header |Second Header |
+| ------------- | Second Header |Second Header |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 - fraud bool: Marcador para Fraude (1 se é fraude, 0 se é legítimo).
 - income: Renda anual das aplicações em quartis. Valores entre [0, 1].
