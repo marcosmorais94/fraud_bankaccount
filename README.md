@@ -8,7 +8,7 @@ Outro ponto a ser destacado é que esse é um tipo de problema que tende a ter u
 Fonte reportagem: https://www.infomoney.com.br/minhas-financas/golpes-bancarios-disparam-e-devem-gerar-prejuizos-de-r-25-bilhoes-neste-ano/
 
 ## Informações do dataset
-O conjunto de dados de Fraude de Conta Bancária (BAF) foi publicado no NeurIPS 2022 e compreende um total de 6 conjuntos de dados tabulares de fraude de conta bancária sintética diferentes. O BAF é um banco de teste realista, completo e robusto para avaliar métodos novos e existentes em ML e ML justo, e o primeiro de seu tipo!
+O conjunto de dados de Fraude de Conta Bancária (BAF) foi publicado no NeurIPS 2022 e compreende um total de 6 conjuntos de dados tabulares de fraude de conta bancária sintética diferentes. O BAF é um banco de teste realista, completo e robusto para avaliar métodos novos e existentes em ML, e o primeiro de seu tipo!
 
 Este conjunto de conjuntos de dados é:
 
