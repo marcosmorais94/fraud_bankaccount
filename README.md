@@ -10,7 +10,7 @@ Fonte reportagem: https://www.infomoney.com.br/minhas-financas/golpes-bancarios-
 ## Informações do dataset
 O conjunto de dados de Fraude de Conta Bancária (BAF) foi publicado no NeurIPS 2022 e compreende um total de 6 conjuntos de dados tabulares de fraude de conta bancária sintética diferentes. O BAF é um banco de teste realista, completo e robusto para avaliar métodos novos e existentes em ML, e o primeiro de seu tipo!
 
-Este conjunto de conjuntos de dados é:
+Este conjunto de dados é:
 
 - Realista, baseado em um conjunto de dados do mundo real atual para detecção de fraudes;
 - Tendencioso, cada conjunto de dados tem tipos distintos de viés controlados;
