@@ -3,7 +3,7 @@
 # Modelo Preditivo - Fraude Bancária
 O objetivo dessa análise é identificar uma possível fraude com base nos dados pessoas de cada cliente, como idade, renda, risco de crédito e etc. 
 Um dos maiores desafios deste dataset é o desbalanceamento de classes porque existem mais transações legais do que transações com algum tipo de fraude. 
-Outro ponto a ser destacado é que esse é um tipo de problema que tende a ter um retorno muito alto para instituições financeiras visto que a partir ds identificação de uma suspeita de fraude, a instituição financeira pode tomar decisões rápidas e objetivas evitando o prejuízo ou mesmo diminuindo o risco do mesmo. De acordo com o InfoMoney em uma reportagem de Ago/22, golpes bancários tem o potencial de gerar um prejuízo de R$ 2.5 BI em 2022. 
+Outro ponto a ser destacado é que esse é um tipo de problema que tende a ter um retorno muito alto para instituições financeiras visto que a partir ds identificação de uma suspeita de fraude, a instituição pode tomar decisões rápidas e objetivas evitando o prejuízo ou mesmo diminuindo o risco do mesmo. De acordo com o InfoMoney em uma reportagem de Ago/22, golpes bancários tem o potencial de gerar um prejuízo de R$ 2.5 BI em 2022. 
 
 Fonte reportagem: https://www.infomoney.com.br/minhas-financas/golpes-bancarios-disparam-e-devem-gerar-prejuizos-de-r-25-bilhoes-neste-ano/
 
